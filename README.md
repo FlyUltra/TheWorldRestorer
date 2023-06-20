@@ -15,6 +15,47 @@ When you start need your backup you only call one method for it
 * [Example](#example)
 * [License](#license)
 
+
+<details>
+    <summary>Maven</summary>
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.FlyUltra</groupId>
+        <artifactId>TheWorldRestorer</artifactId>
+        <version>VERSION</version>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+```
+</details>
+
+<details>
+    <summary>Gradle</summary>
+
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.FlyUltra:TheWorldRestorer:VERSION'
+}
+```
+</details>
+
+
 ## Example
 
 ```java
